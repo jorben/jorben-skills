@@ -1,0 +1,16 @@
+{
+  "name": "cc-marketplace",
+  "description": "Jorben's private Claude Code plugin marketplace",
+  "owner": {
+    "name": "jorben",
+    "github": "jorben"
+  },
+  "repository": "jorben/cc-marketplace",
+  "plugins": [
+    {
+      "name": "example-skill",
+      "path": "plugins/example-skill",
+      "description": "A simple example plugin demonstrating the skill format"
+    }
+  ]
+}
