@@ -1,4 +1,4 @@
-# cc-marketplace
+# jorben-skills
 
 Jorben's private Claude Code plugin marketplace, used for accumulating and sharing skills, commands, and other plugins across devices.
 
@@ -7,7 +7,7 @@ Jorben's private Claude Code plugin marketplace, used for accumulating and shari
 Add this marketplace in any Claude Code session:
 
 ```
-/plugin marketplace add jorben/cc-marketplace
+/plugin marketplace add jorben/jorben-skills
 ```
 
 Then browse and install available plugins:
@@ -39,14 +39,7 @@ plugins/my-plugin/
   "author": {
     "name": "jorben",
     "github": "jorben"
-  },
-  "skills": [
-    {
-      "name": "my-skill",
-      "path": "skills/my-skill/SKILL.md",
-      "description": "What the skill does"
-    }
-  ]
+  }
 }
 ```
 
@@ -72,7 +65,7 @@ Instructions for the skill...
 ```json
 {
   "name": "my-plugin",
-  "path": "plugins/my-plugin",
+  "source": "./plugins/my-plugin",
   "description": "Description of my plugin"
 }
 ```
@@ -82,7 +75,7 @@ Instructions for the skill...
 ## Directory Structure
 
 ```
-cc-marketplace/
+jorben-skills/
 ├── .claude-plugin/
 │   ├── plugin.json          # Marketplace root manifest
 │   └── marketplace.json     # Plugin directory listing
