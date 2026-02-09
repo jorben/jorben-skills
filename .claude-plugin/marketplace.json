@@ -4,34 +4,24 @@
     "description": "Jorben's private Claude Code plugin for sharing skills and commands across devices"
   },
   "owner": {
-    "name": "jorben"
+    "name": "jorben",
+    "email": "jorben@aix.me"
   },
   "plugins": [
     {
-      "name": "example-skills",
-      "source": "./",
-      "description": "Jorben's skills and commands collection",
-      "skills": ["./skills/hello"]
-    },
-    {
       "name": "graphics-studio",
-      "source": "./",
-      "description": "Image generation, editing, and composition skills powered by AI APIs",
-      "skills": ["./skills/zenmux-image-gen"]
+      "source": "./plugins/graphics-studio",
+      "description": "Image generation, editing, and composition skills powered by AI APIs"
     },
     {
-      "name": "programming-studio",
-      "source": "./",
-      "description": "Programming productivity commands for commits and pull requests",
-      "skills": [],
-      "commands": ["./commands/coding"]
+      "name": "coding-studio",
+      "source": "./plugins/coding-studio",
+      "description": "Coding productivity commands for commits and pull requests"
     },
     {
       "name": "video-studio",
-      "source": "./",
-      "description": "",
-      "skills": [],
-      "commands": []
+      "source": "./plugins/video-studio",
+      "description": "Video generation, editing, and composition skills powered by AI APIs"
     }
   ]
 }
