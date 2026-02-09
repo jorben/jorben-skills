@@ -1,8 +1,9 @@
 {
   "name": "jorben-skills",
   "version": "0.1.0",
-  "description": "Jorben's private Claude Code plugin marketplace",
+  "description": "Jorben's private Claude Code plugin for sharing skills and commands across devices",
   "author": {
-    "name": "jorben"
+    "name": "jorben",
+    "github": "jorben"
   }
 }

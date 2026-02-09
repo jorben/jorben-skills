@@ -1,16 +1,16 @@
 {
   "name": "jorben-skills",
   "metadata": {
-    "description": "Jorben's private Claude Code plugin marketplace for sharing skills and commands across devices"
+    "description": "Jorben's private Claude Code plugin for sharing skills and commands across devices"
   },
   "owner": {
     "name": "jorben"
   },
   "plugins": [
     {
-      "name": "example-skill",
-      "source": "./plugins/example-skill",
-      "description": "A simple example plugin demonstrating the skill format"
+      "name": "jorben-skills",
+      "source": ".",
+      "description": "Jorben's skills and commands collection"
     }
   ]
 }

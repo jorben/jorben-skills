@@ -1,9 +1,0 @@
-{
-  "name": "example-skill",
-  "version": "0.1.0",
-  "description": "A simple example plugin with a hello skill",
-  "author": {
-    "name": "jorben",
-    "github": "jorben"
-  }
-}
