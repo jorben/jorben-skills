@@ -14,10 +14,24 @@
       "skills": ["./skills/hello"]
     },
     {
-      "name": "image-skills",
+      "name": "graphics-studio",
       "source": "./",
       "description": "Image generation, editing, and composition skills powered by AI APIs",
       "skills": ["./skills/zenmux-image-gen"]
+    },
+    {
+      "name": "programming-studio",
+      "source": "./",
+      "description": "Programming productivity commands for commits and pull requests",
+      "skills": [],
+      "commands": ["./commands/coding"]
+    },
+    {
+      "name": "video-studio",
+      "source": "./",
+      "description": "",
+      "skills": [],
+      "commands": []
     }
   ]
 }
