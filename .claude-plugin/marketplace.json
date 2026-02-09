@@ -1,11 +1,11 @@
 {
   "name": "cc-marketplace",
-  "description": "Jorben's private Claude Code plugin marketplace",
-  "owner": {
-    "name": "jorben",
-    "github": "jorben"
+  "metadata": {
+    "description": "Jorben's private Claude Code plugin marketplace for sharing skills and commands across devices"
   },
-  "repository": "jorben/cc-marketplace",
+  "owner": {
+    "name": "jorben"
+  },
   "plugins": [
     {
       "name": "example-skill",

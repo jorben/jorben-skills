@@ -2,9 +2,7 @@
   "name": "cc-marketplace",
   "version": "0.1.0",
   "description": "Jorben's private Claude Code plugin marketplace",
-  "type": "marketplace",
   "author": {
-    "name": "jorben",
-    "github": "jorben"
+    "name": "jorben"
   }
 }
