@@ -8,9 +8,10 @@
   },
   "plugins": [
     {
-      "name": "jorben-skills",
-      "source": ".",
-      "description": "Jorben's skills and commands collection"
+      "name": "example-skills",
+      "source": "./",
+      "description": "Jorben's skills and commands collection",
+      "skills": ["./skills/hello"]
     }
   ]
 }

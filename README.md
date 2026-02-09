@@ -42,8 +42,7 @@ Instructions for the skill...
 ```
 jorben-skills/
 ├── .claude-plugin/
-│   ├── plugin.json          # Plugin manifest
-│   └── marketplace.json     # Marketplace registry
+│   └── marketplace.json     # Marketplace manifest
 ├── skills/
 │   └── <skill-name>/
 │       └── SKILL.md         # Skill definition

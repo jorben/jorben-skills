@@ -10,11 +10,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 仓库本身既是 marketplace 也是唯一的 plugin，skills 直接放在根目录：
 
-1. **Marketplace** (`/.claude-plugin/marketplace.json`) — Marketplace registry, plugin source 指向 `"."`（仓库根目录）
-2. **Plugin** (`/.claude-plugin/plugin.json`) — Plugin manifest with metadata
-3. **Skill** (`/skills/<skill-name>/SKILL.md`) — Markdown file with YAML frontmatter containing instructions for Claude
-
-Skills are auto-discovered from the directory structure, 无需在 plugin.json 中手动声明。
+1. **Marketplace** (`/.claude-plugin/marketplace.json`) — Marketplace manifest，plugin source 指向 `"./"`（仓库根目录），plugin 的 skills 在此声明
+2. **Skill** (`/skills/<skill-name>/SKILL.md`) — Markdown file with YAML frontmatter containing instructions for Claude
 
 ## Adding a New Skill
 
