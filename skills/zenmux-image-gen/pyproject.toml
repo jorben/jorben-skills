@@ -1,0 +1,11 @@
+[project]
+name = "zenmux-image-gen"
+version = "0.1.0"
+description = "Image generation, editing, and composition using Zenmux API (Google GenAI)"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=1.0.0",
+]
+
+[project.scripts]
+image-gen = "scripts.image_gen:main"

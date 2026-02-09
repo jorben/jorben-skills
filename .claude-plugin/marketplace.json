@@ -12,6 +12,12 @@
       "source": "./",
       "description": "Jorben's skills and commands collection",
       "skills": ["./skills/hello"]
+    },
+    {
+      "name": "image-skills",
+      "source": "./",
+      "description": "Image generation, editing, and composition skills powered by AI APIs",
+      "skills": ["./skills/zenmux-image-gen"]
     }
   ]
 }
