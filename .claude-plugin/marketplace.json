@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "example-skill",
-      "path": "plugins/example-skill",
+      "source": "./plugins/example-skill",
       "description": "A simple example plugin demonstrating the skill format"
     }
   ]
