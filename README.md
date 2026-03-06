@@ -55,9 +55,12 @@ jorben-skills/
 │   ├── coding-studio/
 │   │   ├── .claude-plugin/
 │   │   │   └── plugin.json
-│   │   └── commands/
-│   │       ├── commit.md
-│   │       └── create-pr.md
+│   │   ├── commands/
+│   │   │   ├── commit.md
+│   │   │   └── create-pr.md
+│   │   └── skills/
+│   │       └── project-docs-sync/
+│   │           └── SKILL.md
 │   └── video-studio/
 │       ├── .claude-plugin/
 │       │   └── plugin.json
