@@ -22,6 +22,11 @@
       "name": "video-studio",
       "source": "./plugins/video-studio",
       "description": "Video generation, editing, and composition skills powered by AI APIs"
+    },
+    {
+      "name": "operations-studio",
+      "source": "./plugins/operations-studio",
+      "description": "Operations productivity skills for competitor analysis, market tracking, social media content, and content marketing"
     }
   ]
 }
